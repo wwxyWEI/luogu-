@@ -2,8 +2,8 @@
 #include <cstring>
 using namespace std;
 //注意，括号的嵌套不止一层，所以不能单纯的用0，1标记来判断
-//用计数器思想，zhai的思想
-//计数器模拟zhai，深度 cnt 记录未匹配的左括号数
+//用计数器思想，栈的思想
+//计数器模拟栈，深度 cnt 记录未匹配的左括号数
 const int N = 260;
 int main()
 {

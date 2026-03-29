@@ -43,7 +43,7 @@ int main()
         cin >> x >> y;
         g[x][y] = 1;
     }
-    cnt[sx][sy] = true;//保证起点上不会再次经过
+    cnt[sx][sy] = true;//保证起点上不会再次经过,以免形成死循环
     dfs(sx,sy);
     std::cout << res;
     return 0;
